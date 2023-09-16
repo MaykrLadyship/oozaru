@@ -13,7 +13,8 @@ namespace oozaru.Changes
         {
             if (npc.type == NPCID.CultistBoss)
             {
-                npcLoot.Add(ItemDropRule.Common(ModContent.ItemType < Items.SSJ4Item> (), 1 , 1, 1));
+                npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<Items.SSJ4Item>(), 1 , 1, 1));
+                npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<Items.Vanity.SSJ4Fur>(),1, 1, 1));
             }
 
             if (npc.type == NPCID.LunarTowerSolar)

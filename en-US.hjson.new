@@ -1,0 +1,66 @@
+
+Mods: {
+	oozaru: {
+		Items: {
+			SSJ4FPItem: {
+				DisplayName: Full Power
+				Tooltip: Fully powered
+			}
+
+			SSJ4Item: {
+				DisplayName: Primal Ki
+				Tooltip: Go beyond
+			}
+
+			SSJ4LBItem: {
+				DisplayName: Limit Breaker
+				Tooltip: Break those limits.
+			}
+
+			SSJ4Fur.DisplayName: SSJ4 Body Fur? Hair?
+			SSJ5Fur.DisplayName: SSJ5 Body Fur
+		}
+
+		Buffs: {
+			SSJ4Buff: {
+				DisplayName: Super Saiyan 4
+				Description:
+					'''
+					Damage +230.00%  | Speed +230.00%
+					Defense +16 | Ki Costs +100.00%
+					Ki Drain 210/s, 105/s when mastered
+					'''
+			}
+
+			SSJ4FPBuff: {
+				DisplayName: Super Saiyan 4 Full Power
+				Description:
+					'''
+					Damage +280.00%  | Speed +280.00%
+					Defense +20 | Ki Costs +150.00%
+					Ki Drain 288/s, 144/s when mastered
+					'''
+			}
+
+			SSJ4LBBuff: {
+				DisplayName: Super Saiyan 4 Limit Breaker
+				Description:
+					'''
+					Damage +320.00%  | Speed +320.00%
+					Defense +26 | Ki Costs +200.00%
+					Ki Drain 360/s, 180/s when mastered
+					'''
+			}
+
+			SSJ5Buff: {
+				DisplayName: Super Sayian 5
+				Description:
+					'''
+					Damage +380.00%  | Speed +380.00%
+					Defense +32 | Ki Costs +250.00%
+					Ki Drain 480/s, 120/s when mastered
+					'''
+			}
+		}
+	}
+}
