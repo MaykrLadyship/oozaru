@@ -12,8 +12,8 @@ namespace oozaru.Items
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Full Power");
-            Tooltip.SetDefault("Fully powered");
+            // DisplayName.SetDefault("Full Power");
+            // Tooltip.SetDefault("Fully powered");
         }
 
         public override void SetDefaults()

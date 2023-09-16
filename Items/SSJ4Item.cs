@@ -12,8 +12,8 @@ namespace oozaru.Items
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Primal Ki");
-            Tooltip.SetDefault("Go beyond");
+            // DisplayName.SetDefault("Primal Ki");
+            // Tooltip.SetDefault("Go beyond");
         }
 
         public override void SetDefaults()

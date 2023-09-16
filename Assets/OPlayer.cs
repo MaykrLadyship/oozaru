@@ -4,7 +4,6 @@ using DBZGoatLib;
 using System;
 using DBZGoatLib.Model;
 using Microsoft.Xna.Framework;
-using Steamworks;
 using oozaru.Transformations;
 using System.Security.Policy;
 using Terraria.ModLoader.IO;
