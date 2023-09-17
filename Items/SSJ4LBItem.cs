@@ -13,8 +13,8 @@ namespace oozaru.Items
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Limit Breaker");
-            Tooltip.SetDefault("Break those limits.");
+            // DisplayName.SetDefault("Limit Breaker");
+            // Tooltip.SetDefault("Break those limits.");
         }
 
         public override void SetDefaults()

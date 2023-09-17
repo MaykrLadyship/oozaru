@@ -1,0 +1,53 @@
+Buffs: {
+	SSJ4Buff: {
+		DisplayName: Super Saiyan 4 Buff
+		Description: Mods.oozaru.Buffs.SSJ4Buff.Description
+	}
+
+	SSJ4FPBuff: {
+		DisplayName: Super Saiyan 4 Full Power Buff
+		Description: Mods.oozaru.Buffs.SSJ4FPBuff.Description
+	}
+
+	SSJ4LBBuff: {
+		DisplayName: Super Saiyan 4 Limit Breaker Buff
+		Description: Mods.oozaru.Buffs.SSJ4LBBuff.Description
+	}
+
+	SSJ5Buff: {
+		DisplayName: Super Saiyan 5 Buff
+		Description: Mods.oozaru.Buffs.SSJ5Buff.Description
+	}
+
+	SSJ5FPBuff: {
+		DisplayName: Super Saiyan 5 Full Power Buff
+		Description: Mods.oozaru.Buffs.SSJ5FPBuff.Description
+	}
+}
+
+Items: {
+	SSJ4FPItem: {
+		DisplayName: S S J4 F P Item
+		Tooltip: ""
+	}
+
+	SSJ4Item: {
+		DisplayName: S S J4 Item
+		Tooltip: ""
+	}
+
+	SSJ4LBItem: {
+		DisplayName: S S J4 L B Item
+		Tooltip: ""
+	}
+
+	SSJ4Fur: {
+		DisplayName: S S J4 Fur
+		Tooltip: ""
+	}
+
+	SSJ5Fur: {
+		DisplayName: S S J5 Fur
+		Tooltip: ""
+	}
+}

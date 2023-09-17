@@ -150,10 +150,10 @@ namespace oozaru.Assets
 
             public override Connection[] Connections() => new Connection[]
             {
-          new Connection(2,1,1,true, new Gradient(Color.LightYellow).AddStop(0.65f, new Color (255,255,0))),
-           new Connection(2,0,1,true, new Gradient(Color.LightYellow).AddStop(0.65f, new Color (255,255,0))),
-           new Connection(2,0,2,false, new Gradient(Color.HotPink).AddStop(0.65f, new Color(255,42,79))),
-           new Connection(2,0,3,false, new Gradient(Color.HotPink).AddStop(0.65f,new Color(125,125,125))), //this mod just getting bigger
+                new Connection(2,1,1,true, new Gradient(Color.LightYellow).AddStop(0.65f, new Color (255,255,0))),
+                new Connection(2,0,1,true, new Gradient(Color.LightYellow).AddStop(0.65f, new Color (255,255,0))),
+                new Connection(2,0,2,false, new Gradient(Color.HotPink).AddStop(0.65f, new Color(255,42,79))),
+                new Connection(4,0,2,false, new Gradient(Color.HotPink).AddStop(0.65f,new Color(125,125,125))), //this mod just getting bigger
             };
 
             public override string Name() => "Oozaru";
@@ -162,9 +162,9 @@ namespace oozaru.Assets
             {
                new Node(2,1, "SSJ4Buff", "oozaru/Transformations/SSJ4Buff", "A cultist will push you to your limts, it is up to you to break them.", UnlockConditionSSJ4, DiscoverConditionSSJ4),
                new Node(2,0, "SSJ4FPBuff", "oozaru/Transformations/SSJ4FPBuff", "A pillar from the sun will grant you your full power.",UnlockConditionSSJ4FP, DiscoverConditionSSJ4FP),
-               new Node(3,0, "SSJ4LBBuff", "oozaru/Transformations/SSJ4LBBuff", "The lord of moons awaits",UnlockConditionSSJ4LB, DiscoverConditionSSJ4LB),
-               new Node(4,0, "SSJ5Buff", "oozaru/Transformations/SSJ5Buff", "Dying in SSJ4LB will have a 20% chance to unlock this form",UnlockConditionSSJ5, DiscoverConditionSSJ5),
-               new Node(5,0, "SSJ5FPBuff", "oozaru/Transformations/SSJ5FPBuff", "Dying in SSJ5 will unlock this with a 20 percent chance",UnlockConditionSSJ5FP, DiscoverConditionSSJ5FP),
+               new Node(4,0, "SSJ4LBBuff", "oozaru/Transformations/SSJ4LBBuff", "The lord of moons awaits",UnlockConditionSSJ4LB, DiscoverConditionSSJ4LB),
+               new Node(5,0, "SSJ5Buff", "oozaru/Transformations/SSJ5Buff", "Dying in SSJ4LB will have a 20% chance to unlock this form",UnlockConditionSSJ5, DiscoverConditionSSJ5),
+               new Node(6,0, "SSJ5FPBuff", "oozaru/Transformations/SSJ5FPBuff", "Dying in SSJ5 will unlock this with a 20 percent chance",UnlockConditionSSJ5FP, DiscoverConditionSSJ5FP),
             };
 
             public bool UnlockConditionSSJ4(Player player)
