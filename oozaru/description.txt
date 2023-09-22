@@ -1,0 +1,18 @@
+Oozaru is a DBT Addon that gives transformations from GT (once dbt 1.1 releases I will promtly be removing this mod off of the workshop)
+
+Transformations:
+
+SSJ4 - Obtained from cultist
+SSJ4FP - Obtained from the Lunar Solar Tower.
+SSJ4LB - Moon guy
+
+Items: 
+
+SSJ4 Body fur/hair(idk) - gotten when get SSJ4 (W.I.P)
+
+Credits:
+Chaoticley#0001
+Kirby7#8526
+SamiCRZ#5257
+Yellow Ranger#7404
+this mod can be extracted and found on github

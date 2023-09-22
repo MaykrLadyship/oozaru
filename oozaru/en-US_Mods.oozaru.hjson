@@ -1,0 +1,60 @@
+Buffs: {
+	Cooldown: {
+		DisplayName: Cooldown
+		Description: Chill
+	}
+
+	SSJ4Buff: {
+		DisplayName: Super Saiyan 4
+		Description: Mods.oozaru.Buffs.SSJ4Buff.Description
+	}
+
+	LSSJ4Buff: {
+		DisplayName: Legendary Super Saiyan 4
+		Description: Mods.oozaru.Buffs.SSJ4Buff.Description
+	}
+
+	SSJ4FPBuff: {
+		DisplayName: Super Saiyan 4 Full Power Buff
+		Description: Mods.oozaru.Buffs.SSJ4FPBuff.Description
+	}
+
+	SSJ4LBBuff: {
+		DisplayName: Super Saiyan 4 Limit Breaker Buff
+		Description: Mods.oozaru.Buffs.SSJ4LBBuff.Description
+	}
+}
+
+Items: {
+	SSJ4FPItem: {
+		DisplayName: S S J4 F P Item
+		Tooltip: Dev Item for Testing
+	}
+
+	SSJ4Item: {
+		DisplayName: S S J4 Item
+		Tooltip: Dev Item for Testing
+	}
+
+	SSJ4LBItem: {
+		DisplayName: S S J4 L B Item
+		Tooltip: Dev Item for Testing
+	}
+
+	LSJ4Item: {
+		DisplayName: L S S J4 Item
+		Tooltip: Dev Item for Testing
+	}
+
+	SSJ4Fur: {
+		DisplayName: S S J4 Fur
+		Tooltip: For that shirtless look
+	}
+
+	LSSJ4Item: {
+		DisplayName: L S S J4 Item
+		Tooltip: ""
+	}
+}
+
+"Keybinds.Power Up (oozaru Mod).DisplayName": Power  Up (oozaru  Mod)

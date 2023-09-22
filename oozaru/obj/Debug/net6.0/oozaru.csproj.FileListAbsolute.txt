@@ -1,0 +1,5 @@
+C:\Users\xenit\OneDrive\Documents\My Games\Terraria\tModLoader\ModSources\oozaru\obj\Debug\net6.0\oozaru.csproj.AssemblyReference.cache
+C:\Users\xenit\OneDrive\Documents\My Games\Terraria\tModLoader\ModSources\oozaru\obj\Debug\net6.0\oozaru.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xenit\OneDrive\Documents\My Games\Terraria\tModLoader\ModSources\oozaru\obj\Debug\net6.0\oozaru.AssemblyInfoInputs.cache
+C:\Users\xenit\OneDrive\Documents\My Games\Terraria\tModLoader\ModSources\oozaru\obj\Debug\net6.0\oozaru.AssemblyInfo.cs
+C:\Users\xenit\OneDrive\Documents\My Games\Terraria\tModLoader\ModSources\oozaru\obj\Debug\net6.0\oozaru.csproj.CoreCompileInputs.cache

@@ -1,0 +1,4 @@
+displayName = Oozaru
+author = Genesis
+version = 0.1.1.2
+modReferences = DBZGoatLib, DBZMODPORT
