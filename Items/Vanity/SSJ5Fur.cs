@@ -11,7 +11,7 @@ namespace oozaru.Items.Vanity
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("SSJ5 Body Fur");
+            // DisplayName.SetDefault("SSJ5 Body Fur");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
 
