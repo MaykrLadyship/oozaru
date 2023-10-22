@@ -5,14 +5,14 @@ using Microsoft.Xna.Framework.Graphics;
 using DBZGoatLib;
 using Terraria.ModLoader;
 using DBZGoatLib.Handlers;
-using oozaru.Assets;
+using oozaru144port.Assets;
 
 
-namespace oozaru.Transformations
+namespace oozaru144port.Transformations
 {
     internal class SSJ5FPBuff : Transformation
     {
-        public override AuraData AuraData() => new AuraData("oozaru/Assets/SSJ5FPAURA", 8, BlendState.Additive, new Color(153, 153, 153));
+        public override AuraData AuraData() => new AuraData("oozaru144port/Assets/SSJ5FPAURA", 8, BlendState.Additive, new Color(153, 153, 153));
 
         public override bool CanTransform(Player player)
         {
@@ -24,7 +24,7 @@ namespace oozaru.Transformations
 
         public override string FormName() => "SSJ5 Full Power";
 
-        public override string HairTexturePath() => "oozaru/Assets/SSJ5HAIR";
+        public override string HairTexturePath() => "oozaru144port/Assets/SSJ5HAIR";
 
         public override Gradient KiBarGradient() => new Gradient(new Color(243, 246, 244)).AddStop(1f, new Color(91, 91, 91));
 

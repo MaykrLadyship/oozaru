@@ -4,7 +4,7 @@ using Terraria.GameContent.Creative;
 using Terraria.ID;
 using Steamworks;
 
-namespace oozaru.Items.Vanity
+namespace oozaru144port.Items.Vanity
 {
     [AutoloadEquip(EquipType.Body)]
     internal class SSJ5Fur : ModItem

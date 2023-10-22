@@ -5,14 +5,14 @@ using Microsoft.Xna.Framework.Graphics;
 using DBZGoatLib;
 using Terraria.ModLoader;
 using DBZGoatLib.Handlers;
-using oozaru.Assets;
+using oozaru144port.Assets;
 
 
-namespace oozaru.Transformations
+namespace oozaru144port.Transformations
 {
     internal class SSJ4FPBuff : Transformation
     {
-        public override AuraData AuraData() => new AuraData("oozaru/Assets/BaseAura", 4, BlendState.Additive, new Color(255, 0, 0));
+        public override AuraData AuraData() => new AuraData("oozaru144port/Assets/BaseAura", 4, BlendState.Additive, new Color(255, 0, 0));
 
         public override bool CanTransform(Player player)
         {
@@ -23,7 +23,7 @@ namespace oozaru.Transformations
 
         public override string FormName() => "Super Saiyan 4 Full Power";
 
-        public override string HairTexturePath() => "oozaru/Assets/SSJ4FPHair";
+        public override string HairTexturePath() => "oozaru144port/Assets/SSJ4FPHair";
 
         public override Gradient KiBarGradient() => new Gradient(new Color(255, 255, 0)).AddStop(1f, new Color(102, 0, 0));
 

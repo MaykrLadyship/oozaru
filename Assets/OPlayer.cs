@@ -5,12 +5,12 @@ using System;
 using DBZGoatLib.Model;
 using Microsoft.Xna.Framework;
 using Steamworks;
-using oozaru.Transformations;
+using oozaru144port.Transformations;
 using System.Security.Policy;
 using Terraria.ModLoader.IO;
 using Terraria.DataStructures;
 
-namespace oozaru.Assets
+namespace oozaru144port.Assets
 {
     public class OPlayer : ModPlayer
     {
@@ -139,7 +139,7 @@ namespace oozaru.Assets
 
         public class SSJ4Panel : TransformationTree
         {
-            public override bool Complete() => false;
+            public override bool Complete() => true;
 
 
             public override bool Condition(Player player)
@@ -150,21 +150,21 @@ namespace oozaru.Assets
 
             public override Connection[] Connections() => new Connection[]
             {
-                new Connection(2,1,1,true, new Gradient(Color.LightYellow).AddStop(0.65f, new Color (255,255,0))),
-                new Connection(2,0,1,true, new Gradient(Color.LightYellow).AddStop(0.65f, new Color (255,255,0))),
-                new Connection(2,0,2,false, new Gradient(Color.HotPink).AddStop(0.65f, new Color(255,42,79))),
-                new Connection(4,0,2,false, new Gradient(Color.HotPink).AddStop(0.65f,new Color(125,125,125))), //this mod just getting bigger
+                new Connection(0,2,1,false, new Gradient(Color.LightYellow).AddStop(0.65f, new Color (255,255,0))),
+                new Connection(1,2,1,false, new Gradient(Color.LightYellow).AddStop(0.65f, new Color (255,255,0))),
+                new Connection(2,2,1,false, new Gradient(Color.HotPink).AddStop(0.65f, new Color(255,42,79))),
+                new Connection(3,2,2,false, new Gradient(Color.HotPink).AddStop(0.65f,new Color(125,125,125))), //this mod just getting bigger
             };
 
-            public override string Name() => "Oozaru";
+            public override string Name() => "Join the Discord!";
            
             public override Node[] Nodes() => new Node[]
             {
-               new Node(2,1, "SSJ4Buff", "oozaru/Transformations/SSJ4Buff", "A cultist will push you to your limts, it is up to you to break them.", UnlockConditionSSJ4, DiscoverConditionSSJ4),
-               new Node(2,0, "SSJ4FPBuff", "oozaru/Transformations/SSJ4FPBuff", "A pillar from the sun will grant you your full power.",UnlockConditionSSJ4FP, DiscoverConditionSSJ4FP),
-               new Node(4,0, "SSJ4LBBuff", "oozaru/Transformations/SSJ4LBBuff", "The lord of moons awaits",UnlockConditionSSJ4LB, DiscoverConditionSSJ4LB),
-               new Node(5,0, "SSJ5Buff", "oozaru/Transformations/SSJ5Buff", "Dying in SSJ4LB will have a 20% chance to unlock this form",UnlockConditionSSJ5, DiscoverConditionSSJ5),
-               new Node(6,0, "SSJ5FPBuff", "oozaru/Transformations/SSJ5FPBuff", "Dying in SSJ5 will unlock this with a 20 percent chance",UnlockConditionSSJ5FP, DiscoverConditionSSJ5FP),
+               new Node(0,2, "SSJ4Buff", "oozaru144port/Transformations/SSJ4Buff", "A cultist will push you to your limts, it is up to you to break them.", UnlockConditionSSJ4, DiscoverConditionSSJ4),
+               new Node(1,2, "SSJ4FPBuff", "oozaru144port/Transformations/SSJ4FPBuff", "A pillar from the sun will grant you your full power.",UnlockConditionSSJ4FP, DiscoverConditionSSJ4FP),
+               new Node(2,2, "SSJ4LBBuff", "oozaru144port/Transformations/SSJ4LBBuff", "The lord of moons awaits",UnlockConditionSSJ4LB, DiscoverConditionSSJ4LB),
+               new Node(3,2, "SSJ5Buff", "oozaru144port/Transformations/SSJ5Buff", "Dying in SSJ4LB will have a 20% chance to unlock this form",UnlockConditionSSJ5, DiscoverConditionSSJ5),
+               new Node(5,2, "SSJ5FPBuff", "oozaru144port/Transformations/SSJ5FPBuff", "Dying in SSJ5 will unlock this with a 20 percent chance",UnlockConditionSSJ5FP, DiscoverConditionSSJ5FP),
             };
 
             public bool UnlockConditionSSJ4(Player player)

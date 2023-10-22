@@ -3,9 +3,9 @@ using Terraria.ID;
 using Terraria.GameContent.ItemDropRules;
 using Terraria.ModLoader;
 using Terraria;
-using oozaru.Items;
+using oozaru144port.Items;
 
-namespace oozaru.Changes
+namespace oozaru144port.Changes
 {
     internal class NPCS : GlobalNPC
     {

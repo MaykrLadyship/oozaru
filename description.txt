@@ -1,3 +1,11 @@
+This is a port of the "oozaru" by Genesis to TModloader 1.4.4, linked below.
+
+-
+https://steamcommunity.com/sharedfiles/filedetails/?id=2939421493
+
+- 
+
+Original Description:
 Oozaru is a DBT Addon that gives transformations from GT (once dbt 1.1 releases I will promtly be removing this mod off of the workshop)
 
 Transformations:

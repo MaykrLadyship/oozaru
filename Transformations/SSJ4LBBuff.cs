@@ -5,13 +5,13 @@ using Microsoft.Xna.Framework.Graphics;
 using DBZGoatLib;
 using Terraria.ModLoader;
 using DBZGoatLib.Handlers;
-using oozaru.Assets;
+using oozaru144port.Assets;
 
-namespace oozaru.Transformations
+namespace oozaru144port.Transformations
 {
     internal class SSJ4LBBuff : Transformation
     {
-        public override AuraData AuraData() => new AuraData("oozaru/Assets/BaseAura", 4, BlendState.Additive, new Color(240, 59, 91));
+        public override AuraData AuraData() => new AuraData("oozaru144port/Assets/BaseAura", 4, BlendState.Additive, new Color(240, 59, 91));
 
         public override bool CanTransform(Player player)
         {
@@ -22,7 +22,7 @@ namespace oozaru.Transformations
 
         public override string FormName() => "Super Saiyan 4 Limit Breaker";
 
-        public override string HairTexturePath() => "oozaru/Assets/SSJ4LBH";
+        public override string HairTexturePath() => "oozaru144port/Assets/SSJ4LBH";
 
         public override Gradient KiBarGradient() => new Gradient(new Color(255, 255, 0)).AddStop(1f, new Color(102, 0, 0));
 

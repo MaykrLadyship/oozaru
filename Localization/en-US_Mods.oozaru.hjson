@@ -1,27 +1,27 @@
 Buffs: {
 	SSJ4Buff: {
 		DisplayName: Super Saiyan 4 Buff
-		Description: Mods.oozaru.Buffs.SSJ4Buff.Description
+		Description: Mods.oozaru144port.Buffs.SSJ4Buff.Description
 	}
 
 	SSJ4FPBuff: {
 		DisplayName: Super Saiyan 4 Full Power Buff
-		Description: Mods.oozaru.Buffs.SSJ4FPBuff.Description
+		Description: Mods.oozaru144port.Buffs.SSJ4FPBuff.Description
 	}
 
 	SSJ4LBBuff: {
 		DisplayName: Super Saiyan 4 Limit Breaker Buff
-		Description: Mods.oozaru.Buffs.SSJ4LBBuff.Description
+		Description: Mods.oozaru144port.Buffs.SSJ4LBBuff.Description
 	}
 
 	SSJ5Buff: {
 		DisplayName: Super Saiyan 5 Buff
-		Description: Mods.oozaru.Buffs.SSJ5Buff.Description
+		Description: Mods.oozaru144port.Buffs.SSJ5Buff.Description
 	}
 
 	SSJ5FPBuff: {
 		DisplayName: Super Saiyan 5 Full Power Buff
-		Description: Mods.oozaru.Buffs.SSJ5FPBuff.Description
+		Description: Mods.oozaru144port.Buffs.SSJ5FPBuff.Description
 	}
 }
 
@@ -49,5 +49,115 @@ Items: {
 	SSJ5Fur: {
 		DisplayName: S S J5 Fur
 		Tooltip: ""
+	}
+}
+
+44: {
+	Buffs: {
+		SSJ4Buff: {
+			DisplayName: S S J4 Buff
+			Description: Mods.oozaru144port.Buffs.SSJ4Buff.Description
+		}
+
+		SSJ4FPBuff: {
+			DisplayName: S S J4 F P Buff
+			Description: Mods.oozaru144port.Buffs.SSJ4FPBuff.Description
+		}
+
+		SSJ4LBBuff: {
+			DisplayName: S S J4 L B Buff
+			Description: Mods.oozaru144port.Buffs.SSJ4LBBuff.Description
+		}
+
+		SSJ5Buff: {
+			DisplayName: S S J5 Buff
+			Description: Mods.oozaru144port.Buffs.SSJ5Buff.Description
+		}
+
+		SSJ5FPBuff: {
+			DisplayName: S S J5 F P Buff
+			Description: Mods.oozaru144port.Buffs.SSJ5FPBuff.Description
+		}
+	}
+
+	Items: {
+		SSJ4FPItem: {
+			DisplayName: S S J4 F P Item
+			Tooltip: ""
+		}
+
+		SSJ4Item: {
+			DisplayName: S S J4 Item
+			Tooltip: ""
+		}
+
+		SSJ4LBItem: {
+			DisplayName: S S J4 L B Item
+			Tooltip: ""
+		}
+
+		SSJ4Fur: {
+			DisplayName: S S J4 Fur
+			Tooltip: ""
+		}
+
+		SSJ5Fur: {
+			DisplayName: S S J5 Fur
+			Tooltip: ""
+		}
+	}
+}
+
+44port: {
+	Buffs: {
+		SSJ4Buff: {
+			DisplayName: {
+				$parentVal: S S J4 Buff
+			}
+
+			Description: {
+				$parentVal: Mods.oozaru144port.Buffs.SSJ4Buff.Description
+			}
+		}
+
+		SSJ4FPBuff: {
+			DisplayName: {
+				$parentVal: S S J4 F P Buff
+			}
+
+			Description: {
+				$parentVal: Mods.oozaru144port.Buffs.SSJ4FPBuff.Description
+			}
+		}
+
+		SSJ4LBBuff: {
+			DisplayName: {
+				$parentVal: S S J4 L B Buff
+			}
+
+			Description: {
+				$parentVal: Mods.oozaru144port.Buffs.SSJ4LBBuff.Description
+			}
+		}
+
+		SSJ5Buff: {
+			DisplayName: {
+				$parentVal: S S J5 Buff
+			}
+
+			Description: {
+				$parentVal: Mods.oozaru144port.Buffs.SSJ5Buff.Description
+			}
+		}
+
+		SSJ5FPBuff: {
+			DisplayName: {
+				$parentVal: S S J5 F P Buff
+			}
+
+			Description: {
+				$parentVal: Mods.oozaru144port.Buffs.SSJ5FPBuff.Description
+			}
+		}
 	}
 }

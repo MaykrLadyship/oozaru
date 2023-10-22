@@ -1,0 +1,33 @@
+# This file will automatically update with entries for new content after a build and reload
+
+Items: {
+	BasicSword: {
+		DisplayName: Basic Sword
+		Tooltip: ""
+	}
+
+	SSJ4FPItem: {
+		DisplayName: S S J4 F P Item
+		Tooltip: ""
+	}
+
+	SSJ4Item: {
+		DisplayName: S S J4 Item
+		Tooltip: ""
+	}
+
+	SSJ4LBItem: {
+		DisplayName: S S J4 L B Item
+		Tooltip: ""
+	}
+
+	SSJ4Fur: {
+		DisplayName: S S J4 Fur
+		Tooltip: ""
+	}
+
+	SSJ5Fur: {
+		DisplayName: S S J5 Fur
+		Tooltip: ""
+	}
+}

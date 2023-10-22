@@ -4,9 +4,9 @@ using DBZGoatLib;
 using DBZGoatLib.Handlers;
 using Terraria.ModLoader;
 using Terraria.ID;
-using oozaru.Assets;
+using oozaru144port.Assets;
 
-namespace oozaru.Items
+namespace oozaru144port.Items
 {
     internal class SSJ4Item : ModItem
     {
